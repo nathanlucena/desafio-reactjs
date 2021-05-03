@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+.bodyDiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .mainDiv{
+       
+        width: 28rem;
+        height: 4rem;
+
+        h1{
+            color: #3B4252;
+            font-family: 'Lato', sans-serif;
+            font-size: 40px;
+            font-weight: 300;
+            text-align: center;
+        }
+    
+        .inputDiv{
+            display: flex;
+            height: 2.5rem;
+
+            input{
+                width: 80%;
+                height: 100%;
+                border: 1px solid #47525E;
+                border-radius: 5px;
+                font-family: 'Lato', sans-serif;
+                font-size: 1rem;
+                padding-left: 1.5rem;  
+                justify-content: center;
+                font-style: italic;
+            
+            }
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #47525E;
+                width: 20%;
+                height: 100%;
+                border-radius: 5px ;
+                border: 1px solid #47525E;
+                text-decoration: none;
+
+                color: #ECEFF4;
+                font-family: 'Lato', sans-serif;
+                font-size: 1.2rem;
+   
+                
+                .icon{
+                    color:#fff;
+                    background-color: #47525E;
+                    font-size: 1.2rem;
+                  font-weight: 0.5rem;
+                    
+                
+                }
+         
+            }
+        }
+    }
+    
+}

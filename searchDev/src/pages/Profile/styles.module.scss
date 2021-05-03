@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,300&display=swap');
+.bodyDiv {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	color: #ECEFF4;
+	.profile {
+		width: 25%;
+		height: 100vh;
+		background-color: #3B4252;
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		// justify-content: center;
+		//align-items: center;
+		.avatarDiv {
+			padding: 2rem;
+			display: flex;
+			justify-content: center;
+			img {
+				width: 18.5rem;
+				height: 18.5rem;
+			}
+		}
+		.infoDiv {
+			a {
+				text-decoration: none;
+				color: inherit;
+			}
+			h1 {
+				font-weight: 300;
+			}
+			h2 {
+				font-weight: 300;
+			}
+			p {
+				margin: 1.5rem 0 1.5rem 0;
+				text-align: justify;
+				color: #8190A5;
+				font-family: Lato;
+				;
+				font-weight: 600;
+			}
+			.iconsDiv {
+				display: flex;
+				align-items: flex-end;
+				span {
+					display: flex;
+					align-items: center;
+				}
+				.icon {
+					margin: 0 .5rem 0 .5rem;
+					font-size: 1.5rem;
+					justify-content: center;
+				}
+			}
+			.assistDiv {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				padding-top: 1.5rem;
+				span {
+					display: flex;
+					align-items: center;
+					padding: 0.5rem;
+					font-size: 1.5rem;
+					.assistSpan {
+						padding-left: 1rem;
+					}
+				}
+			}
+			.backBtn {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				background-color: #ECEFF4;
+				width: 12rem;
+				height: 3rem;
+				text-decoration: none;
+				border-radius: 5px;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 3.5rem;
+				color: #3B4252;
+				font-family: 'Lato', sans-serif;
+				font-size: 1.2rem;
+				font-style: italic;
+			}
+		}
+	}
+	.repository {
+		width: 75%;
+		max-height: 100vh;
+		background-color: #FAFAFA;
+		overflow: auto;
+	}
+}
+
+@media ( max-width: 800px) {
+	.bodyDiv {
+		display: flex;
+		flex-direction: column;
+		.profile {
+			width: 100%;
+			height: 140vh;
+			background-color: #3B4252;
+		}
+	}
+}

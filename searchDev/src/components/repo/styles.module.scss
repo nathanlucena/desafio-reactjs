@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+	.repoDiv {
+		color: black;
+		padding: 1rem;
+		padding-left: 4rem;
+		a {
+			text-decoration: none;
+		}
+		h2 {
+			color: #3B4252;
+			font-weight: 400;
+		}
+		span {
+			color: #3B4252;
+		}
+		.detailsDiv {
+			display: flex;
+			align-items: center;
+			.icon {
+				font-size: 1.5rem;
+			}
+			span {
+				display: flex;
+				align-items: center;
+				padding: 0.5rem;
+				font-size: 1rem;
+				color: #3B4252
+			}
+		}
+        //gambiarra a gente aceieta, a gente só não aceita a derrota
+		.lineDiv {
+			width: 90%;
+			margin-right: 10rem;
+			border-bottom: solid 1px #ECEFF4;
+		}
+	}
